@@ -2,7 +2,7 @@
   "name": "mabihousing",
   "version": "1.0.0",
   "description": "module for invoking mabinogi's housing board",
-  "main": "none",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
