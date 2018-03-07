@@ -9,6 +9,11 @@
   "scripts": {
     "test": "mocha"
   },
+  "keywords": [
+    "mabi",
+    "mabinogi",
+    "housing"
+  ],
   "author": "tkk21",
   "license": "ISC",
   "dependencies": {

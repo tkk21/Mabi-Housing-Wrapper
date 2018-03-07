@@ -1,4 +1,4 @@
-# Mabinogi Housing Board Client
+# Mabinogi Housing Board Wrapper
 
 This module calls the Housing Board API
 
