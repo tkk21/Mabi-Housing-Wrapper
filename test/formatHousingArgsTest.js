@@ -1,5 +1,5 @@
-const { formatRequestQuery, formatResponse } = require('../formatHousingArgs');
-const { SearchTypeEnum, SortTypeEnum, SortOptionEnum } = require('../housingEnums');
+const { formatRequestQuery, formatResponse } = require('../src/formatHousingArgs');
+const { SearchTypeEnum, SortTypeEnum, SortOptionEnum } = require('../src/housingEnums');
 expect = require('chai').expect;
 
 generateExpected = function (){
