@@ -3,15 +3,9 @@ const leftpad = require("./lib/leftpad");
 const sortFlag = '-sort';
 const topFlag = '-top';
 const colorFlag = '-color';
-formatRequestQuery = function (args){
-        console.log(args);
-        // TODO handle args better
-        if (!args || args.length < 1){
-            return message.reply("You must provide an item name to search");
-        }
 
+formatRequestQuery = function (args){
         args = args.map((x) => {return x.toLowerCase();});
-        
         let sortType = 0;
         let sortOption = 1;
         let sortIndex = args.indexOf(sortFlag);
